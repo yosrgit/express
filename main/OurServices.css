@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+
+body{
+    background-image:url('https://dollarfootage.com/wp-content/uploads/2017/05/tetrahedron-particle-field-explosion-grey-gradient-bg-1-img.jpg');
+    background-position: center;
+    text-align: center;
+
+}
+
+.container .nav{
+    position: sticky;
+    top: 0;
+    background-color:rgb(250, 245, 245);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    align-items: center;
+    opacity:80%;
+    box-shadow: 1px 2px 3px 3px gr;
+    
+}
+.nav a {
+    margin-right: 150px;
+
+}
+.container :hover {
+    transform: scale(1.03);
+
+}
+header h3{
+color:rgb(87, 86, 85);
+font-family: Dancing Script;
+font-weight: 80px; 
+}
+nav {
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 100px;
+    color: rgb(0, 0, 0);
+
+}
+nav a:hover {
+    color:#747474;
+}
+
+.info {
+    color:whitesmoke;
+    box-shadow: 1px 2px 3px 4px violet;
+    padding : 20px;
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: bold;
+}
+.info :hover{
+    background-color: black;
+    opacity : 20%;
+}
+img {
+
+    height:100px;
+    width: 100px;
+    margin : 25px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: padding 2s;
+}
+
+img:hover{
+    padding: 20px;
+    border-radius: 15px;
+    transition: border-radius 2s;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 425px;
+}
+.food-deliver{
+    color : white;
+    
+}
